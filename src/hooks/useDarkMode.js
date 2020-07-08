@@ -10,7 +10,7 @@ const useDarkMode = (key, initialValue) => {
         } else {
             document.body.classList.remove('dark-mode');
         }
-    }, []);
+    }, [toggleDark]);
 
     return [toggleDark, switchDarkMode];
 };
